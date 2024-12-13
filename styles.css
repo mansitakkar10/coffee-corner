@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: larger;
+    
+}
+
+
+header {
+    background-color: rgb(46, 12, 12);
+    color: white;
+    padding: 8px 0;
+    text-align: center;
+    
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 70px;
+}
+
+.hero {
+    background-image: url(COFFEESS.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-size:cover;
+    padding: 340px 0;
+    text-align: center;
+}
+.hero2 {
+    background-image: url(hero2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-size:cover;
+    padding: 300px 0;
+    
+}
+.hero3 {
+    
+    background-image: url(brown.jpg),url(hero3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 700px 300px , cover;
+    padding: 300px 0;
+    text-align: center;
+}
+.hero4 {
+    background-image: url(hero40.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 300px 0;
+    text-align: center;
+}
+
+
+button {
+    background-color: #cf894b ;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #111;
+    
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color:white ;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size: 0.7em;
+    color: black;
+    opacity: 0.9;
+}
+.socialicons a:hover{
+    background-color: black;
+    transition: 0.5s;
+
+}
+.socialicons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footerNav{ 
+    margin: 30px 0;
+    
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 20px; 
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerbottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p{
+    color: white;
+
+}
+@media (max width:700px){
+    .footerNav ul{
+        flex-direction: column;
+    }
+    .footerNav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
